@@ -1,0 +1,8 @@
+<#@ Template Hostspecific="False" #><#@ 
+Output Extension="txt" #><#
+	string fitsharpVersion = "1.9";
+    string fitsharpFolder = fitsharpVersion + ".net4.0";
+#>!contents
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,fitsharp\\<#= fitsharpFolder #>\fitsharp.dll %p}
+!define TEST_RUNNER {fitsharp\\<#= fitsharpFolder #>\Runner.exe}

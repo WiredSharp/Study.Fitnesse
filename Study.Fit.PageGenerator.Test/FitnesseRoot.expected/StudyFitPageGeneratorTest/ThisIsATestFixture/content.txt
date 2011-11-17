@@ -1,0 +1,6 @@
+!note here is a sample to use the fixture 'ThisIsATestFixture'
+
+|this is a test fixture|
+|a string property|an int property|a date time property|a private getter property|a private setter property?|log?|
+|<a string value>|<a int32 value>|<a datetime value>|<a boolean value>|<an expected boolean result>|<an expected string result>|
+

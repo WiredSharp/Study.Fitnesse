@@ -1,0 +1,4 @@
+!contents
+!define TEST_SYSTEM {slim}
+!define COMMAND_PATTERN {%m -r fitSharp.Slim.Service.Runner,fitsharp\1.9.net4.0\fitsharp.dll %p}
+!define TEST_RUNNER {fitsharp\1.9.net4.0\Runner.exe}

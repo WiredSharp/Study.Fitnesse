@@ -1,0 +1,14 @@
+!note here is a sample to use the fixture 'AnotherTestFixture'
+
+|another test fixture|
+|another string property|another int property|another datetime property|another private getter property|another private setter property?|another log?|
+|<a string value>|<a int32 value>|<a datetime value>|<a boolean value>|<an expected boolean result>|<an expected string result>|
+
+|another test fixture|<a string value>|
+|another string property|another int property|another datetime property|another private getter property|another private setter property?|another log?|
+|<a string value>|<a int32 value>|<a datetime value>|<a boolean value>|<an expected boolean result>|<an expected string result>|
+
+|another test fixture|<a string value>|<a int32 value>|
+|another string property|another int property|another datetime property|another private getter property|another private setter property?|another log?|
+|<a string value>|<a int32 value>|<a datetime value>|<a boolean value>|<an expected boolean result>|<an expected string result>|
+
