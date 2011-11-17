@@ -18,7 +18,7 @@ namespace Study.Fit.PageGenerator
         private string _fitnessRootPath;
         private Assembly _assembly;
         private static readonly string _propertiesFileContent;
-        private string _assemblyFilename;
+        private readonly string _assemblyFilename;
 
         static PageGenerator()
         {
