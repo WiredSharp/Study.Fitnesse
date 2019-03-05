@@ -1,11 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.MyProject", "Study.Fit.MyProject\Study.Fit.MyProject.csproj", "{B3379439-DC2A-4FB2-AAB9-98E5D946164B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.PageGenerator", "Study.Fit.PageGenerator\Study.Fit.PageGenerator.csproj", "{D96CD99E-F4C9-4DF1-8325-F7A0164979AB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.SampleGenerator", "Study.Fit.SampleGenerator\Study.Fit.SampleGenerator.csproj", "{08A2E379-5D54-4B03-8B0E-AF381827B8FF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.PageGenerator.Test", "Study.Fit.PageGenerator.Test\Study.Fit.PageGenerator.Test.csproj", "{0E9FEBC8-C041-4782-9CDD-C42366B6AE8C}"
 EndProject
@@ -41,16 +41,6 @@ Global
 		{D96CD99E-F4C9-4DF1-8325-F7A0164979AB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{D96CD99E-F4C9-4DF1-8325-F7A0164979AB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{D96CD99E-F4C9-4DF1-8325-F7A0164979AB}.Release|x86.ActiveCfg = Release|Any CPU
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Debug|x86.ActiveCfg = Debug|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Debug|x86.Build.0 = Debug|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Release|Any CPU.ActiveCfg = Release|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Release|Mixed Platforms.Build.0 = Release|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Release|x86.ActiveCfg = Release|x86
-		{08A2E379-5D54-4B03-8B0E-AF381827B8FF}.Release|x86.Build.0 = Release|x86
 		{0E9FEBC8-C041-4782-9CDD-C42366B6AE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{0E9FEBC8-C041-4782-9CDD-C42366B6AE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E9FEBC8-C041-4782-9CDD-C42366B6AE8C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -74,5 +64,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D81DC8EE-8A02-4F29-92A8-AD236E6F6DE6}
 	EndGlobalSection
 EndGlobal

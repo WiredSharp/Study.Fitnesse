@@ -1,0 +1,8 @@
+---
+Test
+---
+| Import |
+| smartrics.rest.fitnesse.fixture |
+
+|Table: Rest Fixture | http://jsonplaceholder.typicode.com/ |
+| GET |/users | 200 | Content-Type : application/json; charset=utf-8 | jsonbody.length == 10|

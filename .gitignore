@@ -1,0 +1,15 @@
+target/
+/RestFixture/scratch/src/main/resources/FitNesseRoot/files/testResults
+/RestFixture/scratch/src/main/resources/FitNesseRoot/ErrorLogs
+/RestFixture/scratch/src/main/resources/FitNesseRoot/RecentChanges
+/RestFixture/scratch/src/main/resources/FitNesseRoot/properties
+/RestFixture/scratch/src/main/resources/FitNesseRoot/updateDoNotCopyOverList
+/RestFixture/scratch/src/main/resources/FitNesseRoot/updateList
+/RestFixture/scratch/src/main/resources/FitNesseRoot/Fitnesse/UserGuide
+/RestFixture/scratch/src/main/resources/FitNesseRoot/PageFooter
+/RestFixture/scratch/src/main/resources/FitNesseRoot/PageHeader
+/RestFixture/scratch/src/main/resources/FitNesseRoot/TemplateLibrary
+/RestFixture/scratch/src/main/resources/FitNesseRoot/FitNesse
+/doc/Examples/
+/doc/FitNesseRoot/
+/fitnesse/

@@ -11,8 +11,8 @@ namespace Study.Fit.PageGenerator.Test
         private const string PropertiesFilename = "properties.xml";
         private const string ContentFilename = "content.txt";
         private const string AssemblyFitName = "StudyFitPageGeneratorTest";
-        private static readonly string _fitnessRootPath = Path.Combine(Environment.CurrentDirectory, "FitnesseRoot");
-        private static readonly string _expectedFitnessRootPath = Path.Combine(Environment.CurrentDirectory, "FitnesseRoot.expected");
+        private static readonly string _fitnessRootPath = Path.Combine(TestContext.CurrentContext.TestDirectory, "FitnesseRoot");
+        private static readonly string _expectedFitnessRootPath = Path.Combine(TestContext.CurrentContext.TestDirectory, "FitnesseRoot.expected");
         private readonly string[] TestFixtureClasses = new string[] { "ThisIsATestFixture", "AnotherTestFixture" };
 
         [SetUp]
