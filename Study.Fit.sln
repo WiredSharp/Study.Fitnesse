@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.421
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.156
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.MyProject", "Study.Fit.MyProject\Study.Fit.MyProject.csproj", "{B3379439-DC2A-4FB2-AAB9-98E5D946164B}"
 EndProject
@@ -10,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Study.Fit.PageGenerator.Test", "Study.Fit.PageGenerator.Test\Study.Fit.PageGenerator.Test.csproj", "{0E9FEBC8-C041-4782-9CDD-C42366B6AE8C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PageGenerator", "PageGenerator\PageGenerator.csproj", "{002BB2BD-FAA7-407C-8422-66AA9DC1DF38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3805AAF9-E8C5-497B-B91F-54838291188B}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

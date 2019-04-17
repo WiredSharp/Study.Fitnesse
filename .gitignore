@@ -13,3 +13,5 @@ target/
 /doc/Examples/
 /doc/FitNesseRoot/
 /fitnesse/
+/!obj/
+/.vs/
